@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: none;
+}
+
+.App-header {
+  background-color: #f1f1f1;
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  margin: 1px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#logo-container {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.admin {
+  text-align: center;
+}
+
+.guest {
+  text-align: center;
+}
+
+.pageHeader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+}
+
+.pageHeader .backButton {
+  position: absolute;
+  left: 10px;
+}
+
+.pageHeader .headerAction {
+  position: absolute;
+  right: 10px;
+  
+}
+
+.pageHeader p {
+  margin: 0;
+}
